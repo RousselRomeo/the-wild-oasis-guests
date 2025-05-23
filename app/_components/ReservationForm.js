@@ -5,6 +5,7 @@ import { useReservation } from "./ReservationContext";
 function ReservationForm({ cabin, user }) {
   const { range } = useReservation();
   const { maxCapacity } = cabin;
+  console.log(user);
 
   return (
     <div className="scale-[1.01]">
